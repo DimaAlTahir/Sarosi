@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sarosi</string>
+
+    <string name="menu_location">Manage locations</string>
+    <string name="menu_observation">Manage observations</string>
+    <string name="menu_record_observation">Add a new observation</string>
+    <string name="menu_location_list">Brows location</string>
+    <string name="menu_observation_list">Brows old observations</string>
+
+
+    <string name="observation_title">title</string>
+    <string name="observation_title_hint">Title you observation</string>
+    <string name="observation_body_hint">What do you see?</string>
+    <string name="observation_button_submit">Submit</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+</resources>
