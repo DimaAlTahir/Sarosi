@@ -5,6 +5,7 @@
     <string name="menu_observation">Manage observations</string>
     <string name="menu_record_observation">Add a new observation</string>
     <string name="menu_location_list">Brows location</string>
+    <string name="menu_city_list">Brows cities</string>
     <string name="menu_observation_list">Brows old observations</string>
 
 
@@ -18,5 +19,11 @@
     <string name="date_label_set">Press the button to set the date</string>
     <string name="date_button_set">Set Date</string>
     <string name="date_view_set">The Date is: </string>
+
+    <string name="city_name">City</string>
+    <string name="city_country">Country</string>
+    <string name="city_aq">Air Quality</string>
+
+
     <string name="date_selected"></string>
 </resources>

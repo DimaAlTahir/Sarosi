@@ -23,7 +23,7 @@
             android:name=".CountryList" >
         </activity>
         <activity
-            android:name=".CityList" >
+            android:name=".CityActivity" >
         </activity>
         <activity
             android:name=".WriteObservation" >
