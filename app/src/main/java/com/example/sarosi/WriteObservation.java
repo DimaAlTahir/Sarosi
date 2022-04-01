@@ -75,7 +75,7 @@ public class WriteObservation extends AppCompatActivity {
         super.onResume();
         Intent intent = getIntent();
     }
-
+/*
     @SuppressWarnings("deprecation")
     public void setDate(View view) {
         showDialog(999);
@@ -92,7 +92,7 @@ public class WriteObservation extends AppCompatActivity {
                     myDateListener, year, month, day);
         }
         return null;
-    }
+    }*/
     private DatePickerDialog.OnDateSetListener myDateListener = new
             DatePickerDialog.OnDateSetListener() {
                 @Override

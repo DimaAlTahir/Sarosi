@@ -17,38 +17,38 @@ public class CityActivity extends AppCompatActivity {
             new City("Limasol", "Cyprus", "Medium", false),
             new City("Paphos", "Cyprus", "Medium", false),
             new City("Los Angeles", "America", "Medium", false),
-            new City("Larnaca10", "Cyprus", "Medium", false),
-            new City("Nicosia10", "Cyprus", "Medium", false),
-            new City("Limasol10", "Cyprus", "Medium", false),
-            new City("Paphos10", "Cyprus", "Medium", false),
-            new City("Los Angeles10", "America", "Medium", false),
-            new City("Larnaca15", "Cyprus", "Medium", false),
-            new City("Nicosia15", "Cyprus", "Medium", false),
-            new City("Limasol15", "Cyprus", "Medium", false),
-            new City("Paphos15", "Cyprus", "Medium", false),
-            new City("Los Angeles15", "America", "Medium", false),
-            new City("Larnaca20", "Cyprus", "Medium", false),
-            new City("Nicosia20", "Cyprus", "Medium", false),
-            new City("Limasol20", "Cyprus", "Medium", false),
-            new City("Paphos20", "Cyprus", "Medium", false),
-            new City("Los Angeles20", "America", "Medium", false),
-            new City("Larnaca25", "Cyprus", "Medium", false),
-            new City("Nicosia25", "Cyprus", "Medium", false),
-            new City("Limasol25", "Cyprus", "Medium", false),
-            new City("Paphos25", "Cyprus", "Medium", false),
-            new City("Los Angeles25", "America", "Medium", false),
-            new City("Larnaca30", "Cyprus", "Medium", false),
-            new City("Nicosia30", "Cyprus", "Medium", false),
-            new City("Limasol30", "Cyprus", "Medium", false),
-            new City("Paphos30", "Cyprus", "Medium", false),
-            new City("Los Angeles30", "America", "Medium", false)
+            new City("New York", "America", "Medium", false),
+            new City("Austin", "America", "Medium", false),
+            new City("San Francisco", "America", "Medium", false),
+            new City("Seattle", "America", "Medium", false),
+            new City("Boston", "America", "Medium", false),
+            new City("Denver", "America", "Medium", false),
+            new City("Nashville", "America", "Medium", false),
+            new City("Hatta", "Dubai", "Medium", false),
+            new City("Kyrenia", "Cyprus", "Medium", false),
+            new City("Jebel Ali", "Dubai", "Medium", false),
+            new City("Agros", "Cyprus", "Medium", false),
+            new City("Pera", "Cyprus", "Medium", false),
+            new City("Khorfakkan", "Dubai", "Medium", false),
+            new City("Berlin", "German", "Medium", false),
+            new City("Hamburg", "German", "Medium", false),
+            new City("Munich", "German", "Medium", false),
+            new City("Stuttgart", "German", "Medium", false),
+            new City("Dortmund", "German", "Medium", false),
+            new City("Bremen", "German", "Medium", false),
+            new City("Andalusia", "Spain", "Medium", false),
+            new City("Galicia", "Spain", "Medium", false),
+            new City("Madrid", "Spain", "Medium", false),
+            new City("La Rioja", "Spain", "Medium", false),
+            new City("Melilla", "Spain", "Medium", false),
+            new City("Murcia", "Spain", "Medium", false)
     };
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_city);
 
-        ListView citiesListView = findViewById(R.id.myListView);
+        ListView citiesListView = findViewById(R.id.cityListView);
         CityAdapter cityAdapter = new CityAdapter( this , cities);
         citiesListView.setAdapter(cityAdapter);
         citiesListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
